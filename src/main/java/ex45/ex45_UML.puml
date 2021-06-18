@@ -1,0 +1,15 @@
+@startuml
+class input{
+read file
+
+}
+class observe{
+count words
+replace in words
+make new list
+}
+class output{
+create new file
+print new list
+}
+@enduml

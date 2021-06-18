@@ -1,0 +1,13 @@
+@startuml
+Class Userinput{
+
+takes user input
+stores into respective data
+
+}
+Class UMI{
+create output file
+
+}
+
+@enduml

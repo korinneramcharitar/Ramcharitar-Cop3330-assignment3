@@ -1,0 +1,14 @@
+@startuml
+class NameSorter{
+read file
+
+print file data
+
+}
+
+class Array{
+sort array
+}
+
+
+@enduml

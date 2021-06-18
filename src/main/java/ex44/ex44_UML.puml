@@ -1,0 +1,14 @@
+@startuml
+class input{
+takes data input
+
+}
+class sort{
+sorts data into categories
+}
+class print{
+creates format for output
+print output
+}
+
+@enduml

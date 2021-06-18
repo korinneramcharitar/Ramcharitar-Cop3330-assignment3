@@ -1,0 +1,8 @@
+Site name: awesomeco
+Author: Max Power
+Do you want a folder for JavaScript? y
+Do you want a folder for CSS? y
+Created ./website/awesomeco
+Created ./website/awesomeco/index.html
+Created ./website/awesomeco/js/
+Created ./website/awesomeco/css/

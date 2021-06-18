@@ -1,0 +1,15 @@
+@startuml
+class fileReader
+{
+take in file
+convert to respective variables
+
+}
+class freqcount{
+create counter
+print freqcount
+display results
+}
+
+
+@enduml

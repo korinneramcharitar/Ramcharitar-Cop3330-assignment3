@@ -1,0 +1,12 @@
+@startuml
+
+class FileRead{
+read in data
+converts data
+store data
+}
+class Sort{
+categorize data
+print data
+}
+@enduml
