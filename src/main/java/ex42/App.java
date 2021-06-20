@@ -4,20 +4,36 @@ package ex42;
 import java.io.*;
 public class App {
 
-
-    public static void main(String[] args)throws Exception
+static void printTemplate(){
+    System.out.println("Last     | First      | Salary      ");
+    System.out.println("----------------------------------------");
+}
+    public static void main(String[] args)
     {
-        // We need to provide file path as the parameter:
-        // double backquote is to avoid compiler interpret words
-        // like \test as \t (ie. as a escape sequence)
-        File file = new File("src/main/exercise42_input.txt");
 
-        BufferedReader br = new BufferedReader(new FileReader(file));
+        String path = "/Users/korinneramcharitar/Desktop/exercise42_input.txt";
+        String line = "";
+        String temp;
+        printTemplate();
 
-        String st;
-        while ((st = br.readLine()) != null)
-            System.out.println(st);
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(path));
+            while((line = br.readLine()) != null){
+              String[] values = line.split(",");
+
+                System.out.println(values[0]+"         " + values[1]+ "        "+ values[2]);
+
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
+
 
 }
 
