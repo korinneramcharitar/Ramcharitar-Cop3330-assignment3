@@ -1,15 +1,9 @@
 @startuml
-class input{
-read file
-
-}
-class observe{
-count words
-replace in words
-make new list
-}
-class output{
-create new file
-print new list
+class WordReplace{
+Scan in file
+read each line from file
+read in each word needed to be replace
+replace word
+print new paragraph
 }
 @enduml
