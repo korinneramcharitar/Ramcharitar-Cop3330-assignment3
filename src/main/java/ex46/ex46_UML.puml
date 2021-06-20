@@ -1,14 +1,11 @@
 @startuml
-class fileReader
+class wordCounter
 {
-take in file
-convert to respective variables
+read in fileReader
+count use of each word
+arrange so most used word is at top in order
+print output
 
-}
-class freqcount{
-create counter
-print freqcount
-display results
 }
 
 
