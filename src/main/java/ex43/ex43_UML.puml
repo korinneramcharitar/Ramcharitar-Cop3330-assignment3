@@ -2,11 +2,20 @@
 Class Userinput{
 
 takes user input
-stores into respective data
++String name
++String auhtor
++String filepath
++String JS
++String CSS
++String  Html
 
 }
-Class UMI{
+Class generateWebsite{
 create output file
++Website for site
++Website for html
++JS folder
++CSS folder
 
 }
 
